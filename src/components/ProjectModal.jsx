@@ -7,7 +7,7 @@ export const ProjectModal = ({ project, lang, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/60 backdrop-blur-sm animate-fadeIn">
       <div 
-        className="relative w-full max-w-2xl bg-[#F6F6F2] dark:bg-[#18181B] border-3 border-zinc-900 dark:border-zinc-100 rounded-lg p-5 sm:p-7 shadow-brutal-lg dark:shadow-brutal-dark max-h-[90vh] overflow-y-auto"
+        className="relative w-full max-w-2xl bg-[#F6F6F2] dark:bg-[#18181B] border-3 border-zinc-900 dark:border-zinc-100 rounded-lg p-5 sm:p-7 max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
@@ -104,7 +104,7 @@ export const ProjectModal = ({ project, lang, onClose }) => {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-2 text-xs font-bold font-mono uppercase bg-zinc-900 dark:bg-zinc-100 text-[#F6F6F2] dark:text-[#121214] border-2 border-zinc-900 dark:border-zinc-100 rounded shadow-brutal-sm dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all"
+              className="flex items-center gap-2 px-5 py-2 text-xs font-bold font-mono uppercase bg-zinc-900 dark:bg-zinc-100 text-[#F6F6F2] dark:text-[#121214] border-2 border-zinc-900 dark:border-zinc-100 rounded dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all"
             >
               <ExternalLink size={14} />
               <span>{lang === 'en' ? "Live Demo" : "เปิดดูเว็บจริง"}</span>

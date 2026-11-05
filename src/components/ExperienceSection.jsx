@@ -68,7 +68,7 @@ export const ExperienceSection = ({ lang }) => {
             return (
               <div
                 key={item.id}
-                className="relative bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-7 shadow-brutal dark:shadow-none transition-transform hover:-translate-y-0.5"
+                className="relative bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-7 dark:shadow-none transition-transform hover:-translate-y-0.5"
               >
                 {/* Category & Period Row */}
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b-2 border-zinc-900/10 dark:border-zinc-800 pb-3 mb-3">

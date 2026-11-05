@@ -61,7 +61,7 @@ export const HeroSection = ({ lang }) => {
               download="Chadapan_Yukkriroek_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 text-xs sm:text-sm font-bold uppercase tracking-wider bg-zinc-900 dark:bg-zinc-100 text-[#F4F4EE] dark:text-[#121214] border-2 border-zinc-900 dark:border-zinc-100 rounded shadow-brutal dark:shadow-brutal-dark hover:translate-x-1 hover:translate-y-1 transition-all"
+              className="flex items-center gap-2 px-6 py-3 text-xs sm:text-sm font-bold uppercase tracking-wider bg-zinc-900 dark:bg-zinc-100 text-[#F4F4EE] dark:text-[#121214] border-2 border-zinc-900 dark:border-zinc-100 rounded hover:translate-x-1 hover:translate-y-1 transition-all"
             >
               <Download size={15} />
               <span>{lang === 'en' ? "Download CV" : "ดาวน์โหลด CV"}</span>
@@ -69,7 +69,7 @@ export const HeroSection = ({ lang }) => {
 
             <a
               href="#projects"
-              className="flex items-center gap-2 px-6 py-3 text-xs sm:text-sm font-bold uppercase tracking-wider bg-white dark:bg-[#18181B] text-zinc-900 dark:text-zinc-100 border-2 border-zinc-900 dark:border-zinc-100 rounded shadow-brutal dark:shadow-brutal-dark hover:translate-x-1 hover:translate-y-1 transition-all"
+              className="flex items-center gap-2 px-6 py-3 text-xs sm:text-sm font-bold uppercase tracking-wider bg-white dark:bg-[#18181B] text-zinc-900 dark:text-zinc-100 border-2 border-zinc-900 dark:border-zinc-100 rounded hover:translate-x-1 hover:translate-y-1 transition-all"
             >
               <span>{lang === 'en' ? "Explore Projects" : "ดูผลงานทั้งหมด"}</span>
               <ArrowDown size={15} />

@@ -42,7 +42,7 @@ export const Navbar = ({ lang, setLang, theme, setTheme }) => {
           <img
             src="/avatar.jpg"
             alt="Chadapan Emoji"
-            className="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-cover border-2 border-zinc-900 dark:border-zinc-100 shadow-brutal-sm dark:shadow-none bg-white dark:bg-zinc-900"
+            className="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-cover border-2 border-zinc-900 dark:border-zinc-100 dark:shadow-none bg-white dark:bg-zinc-900"
           />
         </a>
 

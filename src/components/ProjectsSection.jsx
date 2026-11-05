@@ -18,9 +18,9 @@ export const ProjectsSection = ({ lang }) => {
               {lang === 'en' ? "Projects." : "ผลงาน."}
             </h2>
           </div>
-          <div className="text-xs sm:text-sm font-semibold text-zinc-600 dark:text-zinc-400">
+          {/* <div className="text-xs sm:text-sm font-semibold text-zinc-600 dark:text-zinc-400">
             {projects.length} {lang === 'en' ? "DEPLOYED APPLICATIONS" : "โปรเจกต์พร้อมทดลองใช้งาน"}
-          </div>
+          </div> */}
         </div>
 
         {/* Projects Cards Grid */}
@@ -28,7 +28,7 @@ export const ProjectsSection = ({ lang }) => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group flex flex-col justify-between bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-7 shadow-brutal dark:shadow-brutal-dark hover:translate-x-1 hover:translate-y-1 transition-all"
+              className="group flex flex-col justify-between bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-7 hover:translate-x-1 hover:translate-y-1 transition-all"
             >
               <div>
                 {/* Top Badge (Numbers removed) */}

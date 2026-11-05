@@ -19,7 +19,7 @@ export const ContactSection = ({ lang }) => {
         </div>
 
         {/* Direct Channels (Horizontal Row, Equal Height Buttons, Largest Email Button) */}
-        <div className="bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-10 shadow-brutal dark:shadow-none">
+        <div className="bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-10  dark:shadow-none">
           
           <div className="mb-6">
             {/* <h3 className="font-black text-xl sm:text-2xl text-zinc-900 dark:text-zinc-100 uppercase mb-2">
@@ -38,7 +38,7 @@ export const ContactSection = ({ lang }) => {
             {/* Email Button (Largest Primary Button, flex-1, same height) */}
             <a
               href={`mailto:${profile.email}`}
-              className="flex-1 min-w-0 h-14 sm:h-16 flex items-center justify-between px-3 sm:px-5 rounded-lg bg-zinc-900 text-[#F4F4EE] dark:bg-zinc-100 dark:text-[#121214] border-2 border-zinc-900 dark:border-zinc-700 shadow-brutal dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all group"
+              className="flex-1 min-w-0 h-14 sm:h-16 flex items-center justify-between px-3 sm:px-5 rounded-lg bg-zinc-900 text-[#F4F4EE] dark:bg-zinc-100 dark:text-[#121214] border-2 border-zinc-900 dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all group"
             >
               <div className="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
                 <div className="p-1.5 sm:p-2 rounded-md bg-zinc-800 dark:bg-zinc-200 text-white dark:text-zinc-900 shrink-0">
@@ -63,7 +63,7 @@ export const ContactSection = ({ lang }) => {
               rel="noopener noreferrer"
               aria-label="LinkedIn"
               title="LinkedIn Profile"
-              className="w-14 sm:w-16 h-14 sm:h-16 shrink-0 flex items-center justify-center rounded-lg bg-[#F4F4EE] dark:bg-[#121214] border-2 border-zinc-900 dark:border-zinc-700 shadow-brutal-sm dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-zinc-900 dark:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800"
+              className="w-14 sm:w-16 h-14 sm:h-16 shrink-0 flex items-center justify-center rounded-lg bg-[#F4F4EE] dark:bg-[#121214] border-2 border-zinc-900 dark:border-zinc-700 dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-zinc-900 dark:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800"
             >
               <Linkedin size={22} className="sm:w-6 sm:h-6" />
             </a>
@@ -75,7 +75,7 @@ export const ContactSection = ({ lang }) => {
               rel="noopener noreferrer"
               aria-label="GitHub"
               title="GitHub Profile"
-              className="w-14 sm:w-16 h-14 sm:h-16 shrink-0 flex items-center justify-center rounded-lg bg-[#F4F4EE] dark:bg-[#121214] border-2 border-zinc-900 dark:border-zinc-700 shadow-brutal-sm dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-zinc-900 dark:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800"
+              className="w-14 sm:w-16 h-14 sm:h-16 shrink-0 flex items-center justify-center rounded-lg bg-[#F4F4EE] dark:bg-[#121214] border-2 border-zinc-900 dark:border-zinc-700 dark:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all text-zinc-900 dark:text-zinc-100 hover:bg-zinc-200 dark:hover:bg-zinc-800"
             >
               <Github size={22} className="sm:w-6 sm:h-6" />
             </a>

@@ -36,7 +36,7 @@ export const StackSection = ({ lang }) => {
             return (
               <div
                 key={idx}
-                className="bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-6 shadow-brutal-sm dark:shadow-none"
+                className="bg-white dark:bg-[#141416] border-3 border-zinc-900 dark:border-zinc-700 rounded-lg p-5 sm:p-6 dark:shadow-none"
               >
                 {/* Category Header */}
                 <div className="flex items-center gap-2 border-b-2 border-zinc-900/10 dark:border-zinc-800 pb-3 mb-4">
